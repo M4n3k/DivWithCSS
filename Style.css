@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    overflow: hidden;
+}
+.mainlayout{
+    width: 85%;
+    min-width: 300px;
+    height: 100vh;
+    background-color: aqua;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(10, 67, 153);
+    margin: auto;
+    margin-bottom: 15px;
+}
+.menu{
+    width: 95%;
+    height: 12%;
+    background-color: rgb(130, 190, 10);
+    margin: auto;
+}
+.duitabox{
+    width: 95%;
+    height: 60%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.firstbox{
+    width: 69%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+}
+.secondbox{
+    width: 29%;
+    height: 100%;
+    background-color: rgb(231, 114, 137);
+    float: right;
+}
+.footer{
+    width: 95%;
+    height: 12%;
+    background-color: rgb(240, 63, 50);
+    margin: auto;
+}
+p{
+    font-size: 1.5em;
+    color: white;
+}
+.menu,.header,.firstbox,.secondbox,.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
